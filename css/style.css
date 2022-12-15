@@ -185,9 +185,16 @@ button{
 .btn-gray{
     background-color: var(--ligth-gray);
 }
+.btn-gray:hover{
+    background-color: var(--dark);
+    color: var(--white);
+}
 .btn-orange{
     background-color: var(--Orange);
     color: var(--white);
+}
+.btn-orange:hover{
+    background: var(--ligth-orange);
 }
 
 
